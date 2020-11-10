@@ -21,10 +21,10 @@ export default function Home({
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>プログラミング学んでいます。最近はReact主に勉強中です。</p>
+        <p>プログラミングスクールTECH I.S.にて勉強中。
+          次々と新しい技術が増えてくるフロントエンドの領域に興味を持ちJavaScript,Reactを中心に技術を習得しています。</p>
         <p>
-          (This is a sample website - you’ll be building a site like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          Next.jsのSSGの勉強も兼ねてポートフォリオサイト作ることにしました。
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
