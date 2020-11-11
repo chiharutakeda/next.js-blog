@@ -22,9 +22,7 @@ export default function Home({
       </Head>
       <section className={utilStyles.headingMd}>
         <p>プログラミングスクールTECH I.S.にて勉強中。
-          次々と新しい技術が増えてくるフロントエンドの領域に興味を持ちJavaScript,Reactを中心に技術を習得しています。</p>
-        <p>
-          Next.jsのSSGの勉強も兼ねてポートフォリオサイト作ることにしました。
+          次々と新しい技術が増えてくるフロントエンドの領域に興味を持ちJavaScript,Reactを中心に技術を習得しています。
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
