@@ -3,7 +3,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = '竹田　智治'
+const name = 'Chiharu Takeda'
 export const siteTitle = 'Chiharu\'s Portfolio Website '
 
 export default function Layout({
