@@ -5,6 +5,7 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 import { GetStaticProps } from 'next'
+import { SkillList } from '../components/skills'
 
 export default function Home({
   allPostsData
@@ -25,6 +26,7 @@ export default function Home({
           次々と新しい技術が増えてくるフロントエンドの領域に興味を持ちJavaScript,Reactを中心に技術を習得しています。
         </p>
       </section>
+      <SkillList />
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>

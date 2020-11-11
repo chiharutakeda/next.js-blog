@@ -1,0 +1,24 @@
+.skilList {
+    border: solid 2px darkgrey;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .5);
+    padding: 1rem;
+}
+
+.skillContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skillTitle {
+    font-family:serif;
+}
+
+.skillCard {
+    margin: 5px;
+    width: 23%;
+    border: solid 2px darkgrey;
+}
+
+.skillText {
+    text-align: center;
+}
