@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Date from '../components/date'
 import { GetStaticProps } from 'next'
 import { SkillList } from '../components/skills'
+import { WorkList } from '../components/works';
 
 export default function Home({
   allPostsData
@@ -27,6 +28,7 @@ export default function Home({
         </p>
       </section>
       <SkillList />
+      <WorkList />
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
