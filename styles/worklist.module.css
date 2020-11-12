@@ -5,7 +5,9 @@
 }
 
 .workTitle {
+    margin: 0;
     font-family:serif;
+    font-size: 36px;
 }
 
 .workContainer {
@@ -18,6 +20,7 @@
 .workCard {
     border: solid 2px darkgrey;
     margin: 5px;
+    border-left: solid 10px;
 }
 
 .workText {

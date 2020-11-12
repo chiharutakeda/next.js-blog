@@ -1,22 +1,26 @@
 .skilList {
+    padding: 1rem;
     border: solid 2px darkgrey;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .5);
-    padding: 1rem;
+}
+
+.skillTitle {
+    margin: 0;
+    font-family:serif;
+    font-size: 36px;
 }
 
 .skillContainer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.skillTitle {
-    font-family:serif;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
 .skillCard {
-    margin: 5px;
-    width: 23%;
     border: solid 2px darkgrey;
+    margin: 5px;
+    border-left: solid 10px;
 }
 
 .skillText {
