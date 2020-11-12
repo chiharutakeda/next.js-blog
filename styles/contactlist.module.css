@@ -1,0 +1,25 @@
+.contactList{
+    padding: 1rem;
+    border: solid 2px darkgrey;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .5);
+}
+
+.contactTitle {
+    font-family:serif;
+}
+
+.contactContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.contactCard {
+    border: solid 2px darkgrey;
+    margin: 5px;
+}
+
+.contactText {
+    text-align: center;
+}

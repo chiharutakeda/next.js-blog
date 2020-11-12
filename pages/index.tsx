@@ -7,6 +7,7 @@ import Date from '../components/date'
 import { GetStaticProps } from 'next'
 import { SkillList } from '../components/skills'
 import { WorkList } from '../components/works';
+import { ContactList } from '../components/contact'
 
 export default function Home({
   allPostsData
@@ -29,6 +30,7 @@ export default function Home({
       </section>
       <SkillList />
       <WorkList />
+      <ContactList />
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
