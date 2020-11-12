@@ -50,3 +50,17 @@
 .lightText {
     color: #999;
 }
+
+/*********** Module Spacer ***********/
+.moduleSpacerExtraExtraSmall {
+    height: 6px
+}
+.moduleSpacerExtraSmall {
+    height: 12px
+}
+.moduleSpacerSmall {
+    height: 20px
+}
+.moduleSpacerMedium {
+    height: 32px
+}
