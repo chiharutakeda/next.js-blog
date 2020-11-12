@@ -29,7 +29,9 @@ export default function Home({
         </p>
       </section>
       <SkillList />
+      <div className={utilStyles.moduleSpacerExtraSmall} />
       <WorkList />
+      <div className={utilStyles.moduleSpacerExtraSmall} />
       <ContactList />
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
