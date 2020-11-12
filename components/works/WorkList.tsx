@@ -14,7 +14,7 @@ const WorkList = () =>{
             <div className={worklistStyles.workContainer}>
                 {workSet.map((work,index)=>{
                     return(
-                        <div className={worklistStyles.workCard}>
+                        <div className={worklistStyles.workCard} key={index}>
                             <p className={worklistStyles.workText}>{work}</p>
                         </div>
                     )
