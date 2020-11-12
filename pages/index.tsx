@@ -8,6 +8,7 @@ import { GetStaticProps } from 'next'
 import { SkillList } from '../components/skills'
 import { WorkList } from '../components/works';
 import { ContactList } from '../components/contact'
+import { Introduction } from '../components/introduction'
 
 export default function Home({
   allPostsData
@@ -23,11 +24,7 @@ export default function Home({
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>プログラミングスクールTECH I.S.にて勉強中。
-          次々と新しい技術が増えてくるフロントエンドの領域に興味を持ちJavaScript,Reactを中心に技術を習得しています。
-        </p>
-      </section>
+      <Introduction />
       <SkillList />
       <div className={utilStyles.moduleSpacerExtraSmall} />
       <WorkList />
