@@ -1,0 +1,7 @@
+.introductionContainer {
+    display: grid;
+}
+
+.introductionText {
+    opacity: 0.6;
+}
